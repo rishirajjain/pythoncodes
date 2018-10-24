@@ -1,12 +1,14 @@
 text=raw_input()
-t=""
+c=""
+print "hello"
 for i in text:
 	if i!= ' ':
-		t=t+ chr(ord(i)-2)
+		c=c+ chr(ord(i)-2)
 
 
 	else:
-		t=t+' '
+		c=c+' '
 
-print t
+print c
+print "bye!"
  
